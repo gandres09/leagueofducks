@@ -1,0 +1,113 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #152349;
+    color: #ffde59;
+}
+
+a,
+input[type="submit"] {
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 2rem 0;
+}
+
+main img#logo {
+    height: 350px;
+    object-fit: contain;
+}
+
+.ok {
+    text-align: center;
+    width: 100vw;
+    padding: 12px;
+    background-color: #1e6;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.bad {
+    text-align: center;
+    width: 100vw;
+    padding: 12px;
+    background-color: #a22;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#registro {
+    padding: 1em;
+    background: #ffde59;
+    color: #152349;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+
+form {
+    display: none;
+    margin: auto;
+    width: fit-content;
+    background-color: #ffde59;
+    padding: 1rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    color: #152349;
+    margin: 1em auto;
+    padding: 0.5em;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: white;
+}
+
+@media screen and (max-width:600px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    input {
+        margin: 1em;
+        padding: 1em;
+    }
+}

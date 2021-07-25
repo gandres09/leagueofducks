@@ -1,0 +1,24 @@
+main img{
+    margin-top: 75px;
+    width:400px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+main img:hover{
+    box-shadow:0 0 1em white;
+}
+
+a#ts3{
+    background-color: #ffde59;
+    text-decoration: none;
+    padding: 0.2em;
+    border-radius: 5px;
+    color: #152449;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}

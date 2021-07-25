@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    color: #ffde59;
+    font-weight: bolder;
+    background-color: #69cbff;
+    width: 100vw;
+    margin-bottom: 0;
+}
+
+.contacto {
+    margin: 1.5em;
+    float: left;
+    width: 2em;
+}
+@media screen and (max-width: 600px){
+    footer section{
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        width:100%
+    }
+}
