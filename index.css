@@ -1,3 +1,6 @@
+html {
+  height: 100%;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -7,6 +10,7 @@ body {
   padding: 0px;
   background-color: #152349;
   color: #ffde59;
+  height: 100%;
 }
 a {
   cursor: pointer;
@@ -27,7 +31,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 5rem 0;
+  margin: auto 0;
 }
 
 main img#logo {
@@ -96,6 +100,21 @@ input {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   background-color: white;
+}
+#close {
+  padding: 5px;
+  margin: -20px;
+  float: right;
+  background: #152349;
+  border: 3px solid #ffde59;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
