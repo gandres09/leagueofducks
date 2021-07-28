@@ -1,5 +1,5 @@
 <?php
 
-$conex = mysqli_connect("leagueofducks.servegame.com/phpmyadmin/","root","","registro");
+$conex = mysqli_connect("leagueofducks.servegame.com","root","","registro");
 
 ?>
