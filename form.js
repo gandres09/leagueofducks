@@ -15,7 +15,7 @@ const form_login = `
 <div id="close" onclick="btn"></div>
 <input name="name" type="text" autofocus placeholder="Usuario" />
 <input name="pass" type="password" placeholder="Contraseña" />
-<input name="enviar" type="submit" value="Log In" />
+<input name="enviar" type="submit" value="Login" />
 </form>
 `;
 
