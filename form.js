@@ -22,6 +22,7 @@ const form_login = `
 function change_form(form) {
   document.getElementById("formulario").remove();
   document.getElementById("aside").innerHTML += form;
+  document.querySelector('#close').addEventListener('click',btn)
 }
 
 function desplegarForm() {
