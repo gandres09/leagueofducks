@@ -2,7 +2,7 @@ let log_reg = document.getElementById("h3");
 
 const form_registro = `
 <form id="formulario" action="" method="POST">
-<div id="close"></div>
+<div id="close" onclick="btn()"></div>
 <input name="name" type="text" autofocus placeholder="Usuario" />
 <input name="pass" type="password" placeholder="Contraseña" />
 <input name="email" type="email" placeholder="e-mail@ejemplo.com" />
@@ -12,7 +12,7 @@ const form_registro = `
 
 const form_login = `
 <form id="formulario" action="" method="POST">
-<div id="close" onclick="btn"></div>
+<div id="close" onclick="btn()"></div>
 <input name="name" type="text" autofocus placeholder="Usuario" />
 <input name="pass" type="password" placeholder="Contraseña" />
 <input name="enviar" type="submit" value="Login" />
