@@ -26,6 +26,7 @@ const form_login = `
 function change_form(form) {
   document.getElementById("formulario").remove();
   document.getElementById("aside").innerHTML += form;
+  document.getElementById("formulario").style.display="block";
   document.querySelector('#close').addEventListener('click',btn)
 }
 
@@ -43,4 +44,5 @@ function desplegarForm() {
 
 function btn(e) {
   e.target.parentNode.remove();
+  document.getElementById("formulario").style.display="none";
 }
