@@ -36,10 +36,6 @@ function desplegarForm() {
   }
 }
 
-function btn() {
-  document
-    .getElementById("close")
-    .addEventListener("click", () =>
-      document.getElementById("formulario").remove()
-    );
+function btn(e) {
+  e.target.parentNode.remove();
 }
